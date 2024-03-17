@@ -13,5 +13,4 @@ Repozytorium zawiera:
 
 1. wersję konsolową: dmarc_raport.py
 2. wersję okienkową: dmarc_raport_v1.py
-3. wersję skompilowaną do exe: AnalizaDMARC.py
-4. skompilowany program exe: AnalizaDMARC.exe
+3. wersję skompilowaną do exe: AnalizaDMARC.py -> pyinstaller --onefile --hidden-import=openpyxl.cell._writer AnalizaDMARC.py
